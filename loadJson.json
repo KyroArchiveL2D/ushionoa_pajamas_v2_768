@@ -1,0 +1,106 @@
+{
+  "SettingModel": {
+    "version": 5,
+    "skel": "CH0285_home.skel",
+    "atlas": "CH0285_home.atlas",
+    "eyeTouch": "Touch_Me",
+    "idol": "Idle_01",
+    "x": 650,
+    "y": 850,
+    "scale": 0.45,
+    "angle": 0,
+    "bgmVolume": 0.2,
+    "talkVolume": 0.5,
+    "showTouch": false,
+    "panelDisplay": false,
+    "showTalkDialog": true,
+    "textX": 840,
+    "textY": 460,
+    "textSize": 16,
+    "autoTalk": 0,
+    "resolution": "2k",
+    "startAnimation": "Start_Idle_01",
+    "startScene": true,
+    "language": "Bahasa Indonesia"
+  },
+  "EventInfos": [
+    {
+      "BoneName": "Spine_02",
+      "Width": 1500,
+      "Height": 800,
+      "Animations": [
+        "Talk_01_M",
+        "Talk_02_M",
+        "Talk_03_M",
+        "Talk_04_M",
+        "Talk_05_M",
+        "Talk_06_M"
+      ],
+      "AnimationIndex": 10,
+      "TextIndex": 0,
+      "ClickType": "pointerdown",
+      "EmptyAnimation": true
+    },
+
+    {
+      "BoneName": "bone7",
+      "Width": 800,
+      "Height": 500,
+      "Animations": ["Pat_01_M"],
+      "AnimationIndex": 20,
+      "TextIndex": 0,
+      "ClickType": "pointerdown",
+      "EmptyAnimation": false
+    }
+  ],
+  "AnimationsTexts": {
+    "中文": {
+      "Sound/CH0285_MemorialLobby_1": "闪闪发光的星星，宛如羊群，在夜晚的天幕上悠然流动…",
+      "Sound/CH0285_MemorialLobby_2_1": "老师真是个奇怪的人",
+      "Sound/CH0285_MemorialLobby_2_2": "居然想听着我这平淡无奇的朗读进入梦乡…",
+      "Sound/CH0285_MemorialLobby_3_1": "这是…为什么呢？",
+      "Sound/CH0285_MemorialLobby_3_2": "声音通透漂亮，可以让人想象到文字中所传达的景象…？",
+      "Sound/CH0285_MemorialLobby_4_1": "感谢您，老师。",
+      "Sound/CH0285_MemorialLobby_4_2": "能够让我，重新审视自己。",
+      "Sound/CH0285_MemorialLobby_5": "老师？已经睡着了吗？",
+      "Sound/CH0285_MemorialLobby_6_1": "夜空中最闪耀，最美丽的星星…",
+      "Sound/CH0285_MemorialLobby_6_2": "不知是否迷路了，竟然落在我的脚边，沉沉睡去…"
+    },
+    "日本語": {
+      "Sound/CH0285_MemorialLobby_1": "『きらきらと輝く星々が、まるで羊の群れのように静かに流れておりました……』",
+      "Sound/CH0285_MemorialLobby_2_1": "先生は、変わっていますね。",
+      "Sound/CH0285_MemorialLobby_2_2": "なんの変哲もない私の朗読を聴きながら眠りたいだなんて。",
+      "Sound/CH0285_MemorialLobby_3_1": "……それはどうしてですか？",
+      "Sound/CH0285_MemorialLobby_3_2": "声が透明で綺麗だから、文字の先を想像できる……？",
+      "Sound/CH0285_MemorialLobby_4_1": "……ありがとうございます、先生。",
+      "Sound/CH0285_MemorialLobby_4_2": "私も、自分を見つめ直すことができました。",
+      "Sound/CH0285_MemorialLobby_5": "……先生？もう寝てしまったんですか？",
+      "Sound/CH0285_MemorialLobby_6_1": "あの中で一番美しく輝いている星が……",
+      "Sound/CH0285_MemorialLobby_6_2": "道に迷ったのか、私の足元で眠ってしまいました。"
+    },
+    "Tiếng Việt": {
+      "Sound/CH0285_MemorialLobby_1": "『Những vì sao ấp lánh trên bàu trời, tựa như đàn cừu lặng lẽ trôi qua...』",
+      "Sound/CH0285_MemorialLobby_2_1": "Sensei lạ thật đấy!",
+      "Sound/CH0285_MemorialLobby_2_2": "Nghe bài đọc bình thường của em mà cũng buồn ngủ được,",
+      "Sound/CH0285_MemorialLobby_3_1": "...Em mạn phép hỏi tại sao được không ạ?",
+      "Sound/CH0285_MemorialLobby_3_2": "Thầy nói là vì giọng trong trẻo và đẹp đẽ của em, nên anh có thể tưởng tượng ra được khung cảnh qua từng con chữ...?",
+      "Sound/CH0285_MemorialLobby_4_1": "Cảm ơn thầy vì điều đó, Sensei.",
+      "Sound/CH0285_MemorialLobby_4_2": "Em ấy nhé, có thể phần nào nhìn nhận lại bản thân mình.",
+      "Sound/CH0285_MemorialLobby_5": "Sensei..? Thầy ngủ đã ngủ rồi phải không?",
+      "Sound/CH0285_MemorialLobby_6_1": "Ngôi sao lấp lánh đẹp nhất trong đó....",
+      "Sound/CH0285_MemorialLobby_6_2": "Không biết có phải thầy ấy đã lạc đường rồi không, mà lại ngủ ngay dưới chân mình như vầy nữa."
+    },
+    "Bahasa Indonesia": {
+      "Sound/CH0285_MemorialLobby_1": "‘Bintang-bintang yang bersinar di langit malam, kayak kawanan domba yang pelan-pelan mengalir di langit…’",
+      "Sound/CH0285_MemorialLobby_2_1": "Kamu tuh aneh juga ya, Sensei.",
+      "Sound/CH0285_MemorialLobby_2_2": "Mau tidur sambil dengerin aku baca biasa gini doang…",
+      "Sound/CH0285_MemorialLobby_3_1": "…Kenapa ya?",
+      "Sound/CH0285_MemorialLobby_3_2": "Karena suaraku bening dan enak didenger, jadi bisa kebayang isi ceritanya…?",
+      "Sound/CH0285_MemorialLobby_4_1": "…Makasih ya, Sensei.",
+      "Sound/CH0285_MemorialLobby_4_2": "Berkat kamu, aku jadi bisa ngelihat diri aku dengan cara yang beda.",
+      "Sound/CH0285_MemorialLobby_5": "…Sensei? Udah tidur ya?",
+      "Sound/CH0285_MemorialLobby_6_1": "Bintang paling terang dan paling cantik di langit itu…",
+      "Sound/CH0285_MemorialLobby_6_2": "Entah kenapa, kayaknya nyasar… terus ketiduran di dekat kakiku gitu aja…"
+    }
+  }
+}
